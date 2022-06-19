@@ -1,0 +1,109 @@
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            .main {
+                height: 500px;
+                width: 80%;
+                border: 1px solid black;
+                margin: 20px auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                color: white;
+                flex-wrap: wrap;
+                text-align: center;
+                padding: 20px;
+                background-image: linear-gradient(to right, hotpink, blue)
+            }
+            
+            div {
+                margin: 20px;
+            }
+            
+            .box-1 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: radial-gradient(red, black, white);
+            }
+            
+            .box-2 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: radial-gradient(circle, red, black, white);
+            }
+            
+            .box-3 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: radial-gradient( red 10%, black 15%, white 20%, green);
+            }
+            
+            .box-4 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: radial-gradient( circle, red 10%, black 15%, white 20%, green);
+            }
+            
+            .box-5 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: repeating-radial-gradient( red 10%, black 20%, white 25%, green 30%, yellow 40%);
+            }
+            
+            .box-5 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: repeating-radial-gradient( red 10%, black 20%, white 25%, green 30%, yellow 40%);
+            }
+            
+            .box-6 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: radial-gradient(closest-side at 60% 50%, blue, rgb(240, 10, 152), red);
+            }
+            
+            .box-7 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: radial-gradient(closest-corner at 60% 50%, blue, rgb(240, 10, 152), red);
+            }
+            
+            .box-8 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: repeating-radial-gradient(farthest-side at 60% 50%, blue, rgb(240, 10, 152), red);
+            }
+            
+            .box-9 {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                background-image: repeating-radial-gradient(farthest-corner at 60% 50%, blue, rgb(240, 10, 152), red);
+            }
+            
+            .sagor {
+                height: 30px;
+                width: 800px;
+                /* background-color: brown; */
+                padding: 30px;
+                margin: 20px auto;
+            }
+            
+            .sagor p {
+                font-size: 40px;
+                font-weight: 900;
+                text-transform: uppercase;
+                color: red;
+                text-shadow: 5px 40px rgb(156, 123, 123);
+            }
